@@ -1,0 +1,80 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: black;
+  text-align: center;
+  <!-- incase the image didn't download-->
+}
+.custom{
+  text-align: center;
+}
+form{
+  background-color: #ccffcc;
+  width: 250px;
+  height: 250px;
+  border: 2px solid yellow;
+  border-radius: 24px;
+  padding: 20px;
+  display: inline-block;
+  /*to move the form into the center i must do that and make text center in body*/
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 39pt;
+  font-family: 'Roboto';
+}
+aside{
+  background-color: #e6ffff;
+  opacity: 0.5;
+  height: 100vh;
+  width: 16%;
+  display: block;
+  /*-- poistion makes it organized --> */
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20pt;
+  font-family: 'Roboto';
+}
+aside li{
+  padding: 20px;
+  font-family: monospace;
+}
+ul{
+  list-style: none;
+}
+label{
+  padding: 5px;
+}
+#header1{
+  font: bold 25pt 'Roboto';
+  color: darkblue;
+}
+#header2{
+  font: bold 13pt 'Roboto';
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.borders{
+  border-radius: 15px;
+  padding: 8px;
+  margin: 6px;
+  text-align: center;
+  width: 140pt;
+}
+.borders2{
+  background-color: darkblue;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: 59pt;
+  margin: 5px;
+}
+footer{
+  text-align: center;
+}
